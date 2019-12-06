@@ -1,0 +1,155 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.menubar ul{
+	display:inline-flex;
+	list-style:none;
+	
+	
+	
+}
+.menubar{
+	text-align:center;
+	background-color:black;
+	padding:40px;
+	position:relative;
+	width:100%;
+	height:50px;
+	
+	
+}
+.menubar ul li{
+	width:100px;
+	padding:15px;
+	margin:15px;
+}
+.menubar ul li a{
+	text-decoration:none;
+	color:white;
+	
+	
+}
+.submenu{
+	display:none;
+	border-radius:10px;
+	
+}
+.menubar ul li:hover{
+ background-color:orange;
+ display:block;
+ height:50px;
+ border-radius:10px;
+}
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:rgba(0,0,0,1);
+	margin-top:20px;
+	margin-left:-15px;
+	margin-right:20px;
+	height:50px;
+}
+.menubar ul li:hover .submenu ul{
+	 display:block;
+	 margin:20px;
+}
+.menubar ul li:hover .submenu ul li{
+	border-bottom:1px solid red;
+	display:block;
+}	
+.menubar ul li:hover .submenu ul li a{
+	z-index:1;
+}
+.row{
+	display:flex;
+	margin:30px;
+	padding:20px;
+	text-align:justify;
+}
+.col{
+	padding:30px;
+	border:1px solid red;
+	background-color:violet;
+	margin:30px;
+	margin-bottom:30px;
+	padding:30px;
+}
+.col h1{
+	text-align:center;
+	padding:20px;
+}
+.bi{
+	background-color:ciyan;
+	background-image:url(/2.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.gal{
+	text-align:center;
+}
+.gal img{
+	width:300px;
+	height:150px;
+	margin:30px;
+	transition:1s;
+	filter:grayscale(100%);
+	
+}
+.gal img:hover{
+	transform:scale(1.2);
+	filter:none;
+}
+.cont{
+	width:400px;
+	height:350px;
+	margin-top:40px;
+	padding:30px;
+	text-align:center;
+	margin-left:300px;
+	
+	position:relative;
+	
+	background-color:rgba(0,0,0,0.5);
+	
+}
+.frm{
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+	width:300px;
+	border:1px solid cyan;
+	
+}
+.frm-btn{
+	width:100px;
+	padding:10px;
+	border-radius:10px;
+	margin-top:10px;
+}
+.login{
+	width:350px;
+	height:400px;
+	margin:30px;
+	margin-left:500px;
+	margin-top:100px;
+	
+	margin-bottom:100px;
+	background-color:rgba(0,0,0,0.4);
+}
+.form{
+	width:250px;
+	
+	padding:20px;
+	margin:20px;
+	border:1px solid cyan;
+	border-radius:10px;
+	margin-left:25px;
+	background-color:rgba(0,0,0,0.4);
+	color:white;
+}
+.form-btn{
+	padding:10px;
+	margin-left:100px;
+}
